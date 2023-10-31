@@ -5,7 +5,6 @@ CFLAGS=-I$(IDIR)
 ODIR=obj
 LIBS=-lm
 
-
 _DEPS = tmoip.h
 DEPS = $(patsubst %, $(IDIR)/%, $(_DEFS))
 
